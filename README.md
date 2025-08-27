@@ -80,5 +80,8 @@ Copy code
 
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Firebase Documentation](https://firebase.google.com/docs)
-- [Animated Text Kit](https://pub.dev/packages/animated_text_kit)
+- [Animated Text Kit](https://pub.dev/packages/animated_text_kit)<img width="1301" height="669" alt="Capture112455" src="https://github.com/user-attachments/assets/eb8193a6-69da-45ce-9276-ea0699cdebd9" />
+
 - [Glassmorphism UI](https://pub.dev/packages/glassmorphism)
+
+

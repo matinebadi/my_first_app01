@@ -1,64 +1,84 @@
 # my_first_app01
 
-A Flutter mobile application that uses Firebase for email registration and OTP verification. This project includes the following features:
+A Flutter project for a mini social network with email OTP verification.
 
-- **Email and password authentication**
-- **OTP verification for email registration**
-- **Glassmorphism-based user interface**
-- **Firebase authentication integration**
-- **Firebase Emulator Suite for local development**
+## Description
 
-## 🚀 Getting Started
+This project is a Flutter application that allows users to register and log in using email and password. It includes an email verification step using a One-Time Password (OTP) sent via Firebase Cloud Functions.
 
-Follow these steps to run the project locally:
+## Features
 
-1. **Clone the repository:**
+- Email and password authentication
+- OTP email verification during registration
+- Animated and interactive UI
+- Stepper-based registration
+- Glassmorphism and particle background effects
+- Works with Firebase Emulator for development
 
-```bash
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Firebase project configured
+- A Gmail account with an app password for sending emails
+
+### Installation
+
+1. Clone the repository:
+
 git clone https://github.com/matinebadi/my_first_app01.git
-Navigate into the project folder:
-
-bash
-Copy code
 cd my_first_app01
-Install dependencies:
 
-bash
+markdown
 Copy code
+
+2. Install dependencies:
+
 flutter pub get
-Run the app:
 
-bash
+cpp
 Copy code
+
+3. Run the Firebase emulators (optional for testing email OTP locally):
+
+firebase emulators:start
+
+markdown
+Copy code
+
+4. Run the Flutter app:
+
 flutter run
-🛠️ Prerequisites
-Flutter SDK installed
 
-Android Studio or Xcode for mobile development
+markdown
+Copy code
 
-Firebase CLI (for using Firebase Emulator Suite)
+## Usage
 
-🔒 Sensitive Files
-Sensitive files like google-services.json (Android) and GoogleService-Info.plist (iOS) are removed from Git history and are included in .gitignore to prevent them from being pushed again.
+1. Open the app.
+2. Go to the "Register" tab.
+3. Fill in your name and email.
+4. Receive a 6-digit OTP via email.
+5. Enter the OTP and set your password.
+6. Login with your credentials.
 
-⚠️ If you want to use real Firebase services, you need to add your own google-services.json and GoogleService-Info.plist locally, but do not commit them.
+## Project Structure
 
-📄 Project Structure
-lib/ → Contains the Flutter source code (auth_screen.dart, main.dart, etc.)
+- `lib/` - Contains Flutter source code, including `auth_screen.dart`
+- `functions/` - Firebase Cloud Functions for sending OTP emails
+- `android/` - Android app configuration
+- `ios/` - iOS app configuration
+- `web/`, `windows/`, `macos/`, `linux/` - Platform-specific configurations
 
-functions/ → Firebase Cloud Functions for sending OTP emails
+## Notes
 
-android/ → Android project configuration
+- **Sensitive files like `google-services.json` and `GoogleService-Info.plist` are ignored and not pushed to GitHub.**
+- Make sure to configure your Firebase project and app passwords before running the app.
 
-ios/ → iOS project configuration
+## References
 
-web/, linux/, macos/, windows/ → Platform-specific folders
-
-⚡ Features
-Step-based registration with OTP
-
-Email verification
-
-Login with email and password
-
-Responsive UI with animations and Glassmorphism effect
+- [Flutter Documentation](https://flutter.dev/docs)
+- [Firebase Documentation](https://firebase.google.com/docs)
+- [Animated Text Kit](https://pub.dev/packages/animated_text_kit)
+- [Glassmorphism UI](https://pub.dev/packages/glassmorphism)

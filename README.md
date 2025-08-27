@@ -1,16 +1,64 @@
 # my_first_app01
 
-A new Flutter project.
+A Flutter mobile application that uses Firebase for email registration and OTP verification. This project includes the following features:
 
-## Getting Started
+- **Email and password authentication**
+- **OTP verification for email registration**
+- **Glassmorphism-based user interface**
+- **Firebase authentication integration**
+- **Firebase Emulator Suite for local development**
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+Follow these steps to run the project locally:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the repository:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/matinebadi/my_first_app01.git
+Navigate into the project folder:
+
+bash
+Copy code
+cd my_first_app01
+Install dependencies:
+
+bash
+Copy code
+flutter pub get
+Run the app:
+
+bash
+Copy code
+flutter run
+🛠️ Prerequisites
+Flutter SDK installed
+
+Android Studio or Xcode for mobile development
+
+Firebase CLI (for using Firebase Emulator Suite)
+
+🔒 Sensitive Files
+Sensitive files like google-services.json (Android) and GoogleService-Info.plist (iOS) are removed from Git history and are included in .gitignore to prevent them from being pushed again.
+
+⚠️ If you want to use real Firebase services, you need to add your own google-services.json and GoogleService-Info.plist locally, but do not commit them.
+
+📄 Project Structure
+lib/ → Contains the Flutter source code (auth_screen.dart, main.dart, etc.)
+
+functions/ → Firebase Cloud Functions for sending OTP emails
+
+android/ → Android project configuration
+
+ios/ → iOS project configuration
+
+web/, linux/, macos/, windows/ → Platform-specific folders
+
+⚡ Features
+Step-based registration with OTP
+
+Email verification
+
+Login with email and password
+
+Responsive UI with animations and Glassmorphism effect

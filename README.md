@@ -80,8 +80,12 @@ Copy code
 
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Firebase Documentation](https://firebase.google.com/docs)
-- [Animated Text Kit](https://pub.dev/packages/animated_text_kit)<img width="1301" height="669" alt="Capture112455" src="https://github.com/user-attachments/assets/eb8193a6-69da-45ce-9276-ea0699cdebd9" />
-
+- [Animated Text Kit](https://pub.dev/packages/animated_text_kit)
 - [Glassmorphism UI](https://pub.dev/packages/glassmorphism)
+
+<img width="1310" height="669" alt="Capture33265" src="https://github.com/user-attachments/assets/387357ed-1f3d-44e1-8a8b-65c5a4260700" />
+
+<img width="1301" height="669" alt="Capture112455" src="https://github.com/user-attachments/assets/12e308e8-0abb-4849-b434-5dea0e73fa0e" />
+
 
 
